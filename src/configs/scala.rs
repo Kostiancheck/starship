@@ -25,7 +25,7 @@ impl<'a> Default for ScalaConfig<'a> {
             version_format: "v${raw}",
             disabled: false,
             style: "red bold",
-            symbol: "🆂 ",
+            symbol: " ",
             detect_extensions: vec!["sbt", "scala"],
             detect_files: vec![".scalaenv", ".sbtenv", "build.sbt"],
             detect_folders: vec![".metals"],

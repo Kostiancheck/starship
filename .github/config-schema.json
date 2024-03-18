@@ -1501,7 +1501,7 @@
         "disabled": false,
         "format": "via [$symbol($version )]($style)",
         "style": "red bold",
-        "symbol": "🆂 ",
+        "symbol": " ",
         "version_format": "v${raw}"
       },
       "allOf": [
@@ -5340,7 +5340,7 @@
           "type": "string"
         },
         "symbol": {
-          "default": "🆂 ",
+          "default": " ",
           "type": "string"
         },
         "detect_extensions": {
